@@ -1,6 +1,5 @@
 # Rails Dynamic Request Lab
 
-
 ## Objectives
 
 * Draw a route with a dynamic variable
@@ -13,7 +12,6 @@
 
 * Build a classical show action/view
 
-
 ## Instructions
 
 There are three RSpec/Capybara specs in this lesson; you can find them in `spec/features/student_spec.rb`. Make sure they pass without breaking the other tests. To complete this section, all specs should pass.
@@ -24,14 +22,14 @@ In this lab, you will work through the full MVC pattern by building a student ma
 
 2. The application should render the values from the `student` record in the database
 
-
 ## Keys to remember
 
 * Make sure that you use a route variable for the `show` request path
 
-* If you google around and discover generators/scaffolds, **don't use them** for this lab
+* If you Google around and discover generators/scaffolds, **don't use them** for this lab. The purpose of this lab is to help you learn and practice the fundamentals of Rails by building each part of the MVC pattern yourself. Generators and scaffolds automatically create controllers, models, views, and routes for you, which can prevent you from understanding how these components work together. By writing the code manually, you'll gain a deeper understanding of routing, controller actions, instance variables, and dynamic views—skills that are essential for real-world Rails development.
 
 ## Resources
+
 * [Documentation](http://api.rubyonrails.org/classes/ActionDispatch/Routing.html)
 
 * [Reading](https://github.com/learn-co-curriculum/rails-dynamic-request-readme)
